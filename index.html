@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="this is website about Movies">
+    <meta name="keywords" content="movies watch new movies media acting">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" href="css/skitter.css" media="all" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- start movies -->
+    <section id="Movies">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-6">
+                    <div class="search my-3">
+                        <input id="searchByWord" class="form-control" type="text" placeholder="search by word...">
+                    </div>
+                    <div id="alertByWord" class="alert alert-danger d-none">
+                        the input title must began with capital letter at first then small letters from 1 to 6...
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="search my-3">
+                        <input id="search" class="form-control" type="text" placeholder="search...">
+                    </div>
+                    <div id="alertSearch" class="alert alert-danger d-none">
+                        the input title must began with capital letter at first then small letters from 1 to 6...
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="ROW" class="row">
+
+            </div>
+        </div>
+        <div class="container mt-5">
+            <nav aria-label="page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+
+                    <li class="page-Item"><a Page="1" class="page-link" href="#">1</a></li>
+                    <li class="page-Item"><a Page="2" class="page-link" href="#">2</a></li>
+                    <li class="page-Item"><a Page="3" class="page-link" href="#">3</a></li>
+                    <li class="page-Item"><a Page="4" class="page-link" href="#">4</a></li>
+                    <li class="page-Item"><a Page="5" class="page-link" href="#">5</a></li>
+                    <li class="page-Item"><a Page="6" class="page-link" href="#">6</a></li>
+                    <li class="page-Item"><a Page="7" class="page-link" href="#">7</a></li>
+                    <li class="page-Item"><a Page="8" class="page-link" href="#">8</a></li>
+                    <li class="page-Item"><a Page="9" class="page-link" href="#">9</a></li>
+                    <li class="page-Item"><a Page="10" class="page-link" href="#">10</a></li>
+                    <li class="page-Item"><a Page="11" class="page-link" href="#">11</a></li>
+                    <li class="page-Item"><a Page="12" class="page-link" href="#">12</a></li>
+                    <li class="page-Item"><a Page="13" class="page-link" href="#">13</a></li>
+                    <li class="page-Item"><a Page="14" class="page-link" href="#">14</a></li>
+                    <li class="page-Item"><a Page="15" class="page-link" href="#">15</a></li>
+                    <li class="page-Item"><a Page="16" class="page-link" href="#">16</a></li>
+                    <li class="page-Item"><a Page="17" class="page-link" href="#">17</a></li>
+                    <li class="page-Item"><a Page="18" class="page-link" href="#">18</a></li>
+                    <li class="page-Item"><a Page="19" class="page-link" href="#">19</a></li>
+                    <li class="page-Item"><a Page="20" class="page-link" href="#">20</a></li>
+                    <li class="page-Item"><a Page="21" class="page-link" href="#">21</a></li>
+                    <li class="page-Item"><a Page="22" class="page-link" href="#">22</a></li>
+                    <li class="page-Item"><a Page="23" class="page-link" href="#">23</a></li>
+                    <li class="page-Item"><a Page="24" class="page-link" href="#">24</a></li>
+                    <li class="page-Item"><a Page="25" class="page-link" href="#">25</a></li>
+                    <li class="page-Item"><a Page="26" class="page-link" href="#">26</a></li>
+
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- end movies -->
+    <!-- start sideBar -->
+    <div id="SideBar" class="sideBar position-fixed clearfix">
+        <div id="LeftSide" class="leftSide bg-info float-left">
+            <ul class="movieType">
+                <li moviesTypes="now_playing" class="Item0">Now Playing</li>
+                <li moviesTypes="popular" class="Item1">Popular</li>
+                <li moviesTypes="top_rated" class="Item2">Top Rated</li>
+                <li moviesTypes="upcoming" class="Item3">Upcoming</li>
+                <li moviesTypes="now_playing" class="Item4">Latest</li>
+                <li moviesTypes="now_playing" class="Item5">Contact Us</li>
+            </ul>
+        </div>
+        <div id="RightSide" class="rightSide bg-white float-left position-relative">
+            <img src="images/logo.png" alt="photo">
+            <i id="Icon1" class="fas fa-bars position-absolute"></i>
+            <!--<i id="Icon2" class="fas fa-bars position-absolute"></i>-->
+        </div>
+    </div>
+    <!-- end sideBar -->
+    <script src="js/jquery-3.5.1.min.js "></script>
+    <script type="text/javascript " src="js/jquery.easing.1.3.js "></script>
+    <script type="text/javascript " src="js/jquery.skitter.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/main.js "></script>
+</body>
+
+</html>
